@@ -11,27 +11,27 @@ This system integrates object detection with color analysis, leveraging the Ultr
 1. **Clone the Repository:**
 First, clone this repository to your local machine:
 
-'''
+```bash
 git clone https://github.com/Abdullah-Mazhar-Arhamsoft/retail_store_shelf_product_detection.git
-'''
+```
 
 
 2. **Install Dependencies:**
 Navigate to the project directory and install the required dependencies using the **'requirements.txt'** file:
 
-'''
+```bash
 cd retail_store_shelf_product_detection
 pip install -r requirements.txt
-'''
+```
 This requirements.txt file includes all necessary Python packages, such as opencv-python, numpy, and ultralytics's YOLOv8.
 
 
 ### Running the System
 To run the system, execute the script from the command line by passing the path to the image you wish to process:
 
-'''
+```bash
 python path_to_script.py /path/to/your/image.jpg
-'''
+```
 Ensure to replace **'path_to_script.py'** with the actual path to the Python script you're executing, and **'/path/to/your/image.jpg'** with the path to the image you want to analyze.
 
 ## System Overview
@@ -53,9 +53,9 @@ Stores analysis results in an SQLite database, **'colors_database.db'**, detaili
 ## Usage Example
 After setting up your environment according to the instructions provided:
 
-""
+```bash
 python detect_product.py images/example.jpg
-""
+```
 This command processes example.jpg, detects objects, analyzes colors, and saves the results to the database.
 
 
