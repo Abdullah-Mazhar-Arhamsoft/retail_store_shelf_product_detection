@@ -45,10 +45,9 @@ Applies k-means clustering to each detected object's bounding box region to iden
 Stores analysis results in an SQLite database, **'colors_database.db'**, detailing each object's class name, the count of similar objects based on color, and the dominant color itself.
 
 ## Folder Structure
-**'model/:'** Contains YOLO model files (e.g., **'yolov8m.pt'**).
-**'images/:'** Directory where input images can be stored.
-**'scripts/:'** Contains the Python scripts for object detection and color analysis.
-**'colors_database.db:'** SQLite database file storing the analysis results.
+- **'model/:'** Contains YOLO model files (e.g., **'yolov8m.pt'**).
+- **'images/:'** Directory where input images can be stored.
+- **'colors_database.db:'** SQLite database file storing the analysis results.
 
 ## Usage Example
 After setting up your environment according to the instructions provided:
