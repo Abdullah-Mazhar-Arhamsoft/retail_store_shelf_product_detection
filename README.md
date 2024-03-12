@@ -62,7 +62,7 @@ This command processes image1.jpg, detects objects, analyzes colors, and saves t
 Distributed under the MIT License. See LICENSE for more information.
 
 ### Contact
-Your Name - https://github.com/Abdullah-Mazhar-Arhamsoft
+Name - https://github.com/Abdullah-Mazhar-Arhamsoft
 
 Project Link: https://github.com/Abdullah-Mazhar-Arhamsoft/retail_store_shelf_product_detection.git
 
