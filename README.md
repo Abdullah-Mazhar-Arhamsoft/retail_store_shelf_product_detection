@@ -53,16 +53,16 @@ Stores analysis results in an SQLite database, **'colors_database.db'**, detaili
 After setting up your environment according to the instructions provided:
 
 ```bash
-python detect_product.py images/example.jpg
+python detect_product.py images/image1.jpg
 ```
-This command processes example.jpg, detects objects, analyzes colors, and saves the results to the database.
+This command processes image1.jpg, detects objects, analyzes colors, and saves the results to the database.
 
 
 ## License
 Distributed under the MIT License. See LICENSE for more information.
 
-Contact
-Your Name - [https://github.com/Abdullah-Mazhar-Arhamsoft]
+### Contact
+Your Name - https://github.com/Abdullah-Mazhar-Arhamsoft
 
-Project Link: [https://github.com/Abdullah-Mazhar-Arhamsoft/retail_store_shelf_product_detection.git]
+Project Link: https://github.com/Abdullah-Mazhar-Arhamsoft/retail_store_shelf_product_detection.git
 
