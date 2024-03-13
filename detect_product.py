@@ -43,10 +43,8 @@ def predict_objects(model, image):
             x_center, y_center, width, height = box[:4]
             detections.append([class_id, x_center, y_center, width, height])
 
-        all_detections = []
-        for detection in detections:
-            all_detections.append(detection)
-
+        all_detections = list(detections)
+        
         return all_detections, class_names
     
     except Exception as e:
